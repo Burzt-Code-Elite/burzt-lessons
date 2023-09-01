@@ -54,6 +54,14 @@ for (let i = 1; i <= 5; i++) {
   console.log(`Iteration ${i}`);
 }
 
+// While loop
+let itr = 1;
+while(itr<=5){
+  console.log(`Iteration ${itr}`);
+  itr++
+}
+
+
 // Functions
 const greet = (name) => {
   console.log(`Hello, ${name}!`);
